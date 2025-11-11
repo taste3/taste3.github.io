@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Nicolas Patenaude</title>
-  <link rel="stylesheet" href="Frigo/TemplateData/style.css">
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; }
-    header { background:#222; color:white; padding:10px; display:flex; justify-content:space-between; align-items:center; }
-    header nav a { color:white; margin-left:15px; text-decoration:none; }
-    section { padding:20px; }
-    #unity-container { margin-top:20px; text-align:center; }
-  </style>
-</head>
-<body>
+# Nicolas Patenaude
 
-<header>
-  <h1>Nicolas Patenaude</h1>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#game1">Game</a>
-  </nav>
-</header>
-
-<section id="about">
-  <h2>About Me</h2>
-  <p>Web Developer & Game Enthusiast. I build web apps and interactive Unity WebGL projects.</p>
-</section>
+## Frigo Chouinard V0.2
 
 <section id="game1">
-  <h2>Frigo Chouinard</h2>
   <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
     <div id="unity-loading-bar">
@@ -81,6 +55,3 @@
   };
   document.body.appendChild(script);
 </script>
-
-</body>
-</html>
